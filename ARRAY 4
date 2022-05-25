@@ -1,0 +1,5 @@
+function salario (...salario){
+console.log(salario);
+}
+
+salario("Salario1","Salario2","Salario3","Salario4","Salario5")
