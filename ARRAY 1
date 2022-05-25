@@ -1,0 +1,4 @@
+function nomes(...Nome ){
+    console.log(Nome);
+}
+nomes("Pedro","Lucas","Lorenzo","isaque","keller")
