@@ -1,0 +1,18 @@
+function salarios(...salario){
+    console.log(salario);
+    Qnumeros = salario.length
+
+    media = 0
+    total = 0
+
+    for( s =0; s < salario.length;s++){
+        total = total + salario[s] // ele soma o numero de itens para total, e verifica a quantidade de itens para salario
+
+    }
+    media = total / Qnumeros
+    console.log(media);
+    
+    
+}
+
+salarios( 1000, 3000, 2000, 4000,5000)
