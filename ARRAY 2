@@ -1,0 +1,5 @@
+function salarios(...salario){
+    console.log(salario);    
+}
+
+salarios( 1000, 3000, 2000, 4000,5000,8000,4300,7000)
