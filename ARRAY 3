@@ -1,0 +1,10 @@
+var x = new Boolean(false);
+if (x) {
+    console.log(x );
+  // esse código é executado
+}
+
+var Y = new Boolean(true);
+if (x){
+    console.log(Y);
+}
