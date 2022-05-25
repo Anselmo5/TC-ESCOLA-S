@@ -1,0 +1,16 @@
+function nomes(...nome){
+    console.log(nome);
+    Qnome = nome.length
+    console.log(Qnome)
+
+    totalc = (nome.join("")) //juntar
+    
+    totalc = totalc.length 
+    if( Qnome > 1 ){
+        console.log("numero total de caracteres:" + totalc +" Total de nomes:" + Qnome);
+        
+    }
+    
+    //totalc = totalc.length // conta os caracteries
+}
+nomes("Djovana","Claudio","Isaque", "Maria","Fernanda","Mauricio","Gabriel","Pereira","Paulo","Pedro")
