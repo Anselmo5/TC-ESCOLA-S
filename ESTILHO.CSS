@@ -1,0 +1,119 @@
+body{
+    background-color:aqua;
+    margin: 0;
+    font-family: monospace; 
+}
+header{
+    background-color: orange;
+    padding: 2rem;   /*<..PRENCHIMENTO DA BORDA...>*/
+
+}
+footer{
+    background-color:yellow ;
+    margin-top:  2rem;
+    border-top: 2px solid pink;
+    
+
+}
+h3{
+    background-color: crimson;
+    color: white;
+    margin: 12px;
+}
+
+header  H1{
+color: azure;
+font-family: cursive;
+text-align: center;
+
+}
+
+nav{
+    background-color: blue;
+    padding: 1rem;
+    color: azure;
+}
+li a{
+    color: white;
+    text-decoration:none;
+    background-color:black;
+    padding:0.5em; 
+    margin-right:100px ;
+}
+
+LI A:hover{
+    color:aqua;
+     
+}
+
+UL LI{
+  padding:2rem ;
+  list-style: none;
+
+}
+NAV ul{
+    padding: 0;
+    flex-direction: ROW;
+    display: flex;
+}
+
+.container{
+    margin: auto;
+    margin-top: 2rem;
+    max-width: 60%;
+    background-color: white;
+    padding:2rem ;
+    display:flex ;
+    flex-direction: column;
+    border-radius:0.5rem ;
+    min-height: 20rem;
+}
+
+.container h3{
+    text-align: center;
+    color: wheat;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5rem;
+}
+
+.container input{
+
+    margin-bottom: 0.5rem;
+    border: 10px solid #312a48;
+    border-radius: 8px;
+    padding: 0.5rem;
+    outline: none;
+    
+}
+.container input:hover{
+    background-color: orange;
+}
+
+.container button{
+    background-color: coral;
+    color: white;
+    font-weight: bolder;
+    border-radius: 25px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 10;
+
+}
+
+.container button:hover{
+background-color:#BD2A2E;
+}
+
+th{
+    background-color: blueviolet;
+    color: aqua;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+td{
+    border: 2px solid #312a48;
+    border-radius: 15px;
+    text-align: center;
+    padding: 0,5rem;
+}
